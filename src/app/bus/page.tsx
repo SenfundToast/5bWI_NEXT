@@ -4,6 +4,8 @@ type Props = {}
 
 export default function Bus({}: Props) {
   return (
-    <div>Bus</div>
+    <div>
+       <h1>Bus</h1>
+    </div>
   )
 }

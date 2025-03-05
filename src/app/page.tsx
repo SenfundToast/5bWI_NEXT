@@ -1,8 +1,10 @@
 import Image from "next/image";
-import Menu from "./components/menu";
+import Menu from "../components/menu";
 
 export default function Home() {
   return (
-    <div>Home</div>
+    <div>
+      <h1>Home</h1>
+    </div>
   );
 }
