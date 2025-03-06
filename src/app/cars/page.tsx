@@ -1,6 +1,7 @@
 import React from 'react'
 import Card from '../../components/cars/Card'
 import { Car } from '@/src/services/Car';
+import CarList from '@/src/components/cars/CarList';
 
 type Props = {}
 
@@ -57,9 +58,7 @@ export default function Cars() {
   return (
     <div>
       <h1>Cars</h1>
-      {cars.map((car: Car) => (
-        <Card key={car.motor.serialNumber} car={car} />
-      ))}
+      <CarList cars={cars}/>
     </div>
   )
 }
