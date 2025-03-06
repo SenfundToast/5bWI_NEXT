@@ -4,7 +4,7 @@ export interface Motor {
   }
   
 export interface Car {
-    Name: string;
+    name: string;
     type: string;
     color: string;
     motor: Motor;
